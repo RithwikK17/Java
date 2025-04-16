@@ -1,0 +1,8 @@
+package com.stringbuffer;
+
+// find the longest word in the string input: "java is a programming language"
+public class Test6 {
+	public static void main(String[] args) {
+
+	}
+}

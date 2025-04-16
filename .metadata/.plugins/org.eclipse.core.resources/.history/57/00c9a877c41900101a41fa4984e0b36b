@@ -1,0 +1,18 @@
+package com.stringbuffer;
+
+public class Test2 {
+public static void main(String[] args) {
+	StringBuffer sb = new StringBuffer();
+	//1. append
+	sb.append("Code");
+	
+	//2. indexOf
+	System.out.println(sb.indexOf("C"));
+	
+	//3. lastIndexOf
+	System.out.println(sb.lastIndexOf("C"));
+	
+	//4. insert
+	System.out.println(sb.insert(0, "Python"));
+}
+}

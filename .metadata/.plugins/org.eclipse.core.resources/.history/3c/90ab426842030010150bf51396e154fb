@@ -1,0 +1,18 @@
+package in.buildingblocks;
+
+class vehicle{
+	int numberOfWheels;
+	String vehicleName;
+	public vehicle(int numberOfWheels, String vehicleName) {
+		super();
+		this.numberOfWheels = numberOfWheels;
+		this.vehicleName = vehicleName;
+	}
+	
+}
+
+public class Test19 {
+public static void main(String[] args) {
+	
+}
+}

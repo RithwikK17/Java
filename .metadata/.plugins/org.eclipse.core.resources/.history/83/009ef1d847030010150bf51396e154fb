@@ -1,0 +1,33 @@
+package in.buildingblocks;
+
+class ProductDetails{
+	int productId;
+	String productName;
+	float productPrice;
+	public ProductDetails(int productId, String productName, float productPrice) {
+		super();
+		this.productId = productId;
+		this.productName = productName;
+		this.productPrice = productPrice;
+	}
+	
+	public ProductDetails showDetails() {
+		//System.out.println(this.productId+"\n"+this.productName+"\n"+this.productPrice);
+		return this;
+	}
+
+	@Override
+	public String toString() {
+		return "ProductDetails [productId=" + this.productId + ", productName=" + this.productName + ", productPrice="
+				+ this.productPrice + "]";
+	}
+	
+}
+
+public class Test20 {
+	public static void main(String[] args) {
+		ProductDetails p = new ProductDetails(101,"Mobile",7875.34f);
+		System.out.println(p.showDetails());
+	}
+	
+}

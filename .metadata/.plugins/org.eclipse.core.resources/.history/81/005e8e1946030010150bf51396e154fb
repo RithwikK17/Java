@@ -1,0 +1,26 @@
+package in.buildingblocks;
+
+class ProductDetails{
+	int productId;
+	String productName;
+	float productPrice;
+	public ProductDetails(int productId, String productName, float productPrice) {
+		super();
+		this.productId = productId;
+		this.productName = productName;
+		this.productPrice = productPrice;
+	}
+	
+	public void getDetails() {
+		System.out.println(this.productId+"\n"+this.productName+"\n"+this.productPrice);
+	}
+}
+
+public class Test20 {
+	ProductDetails p = new ProductDetails(101,"Mobile",7875.34f);
+	p.getDetails();
+	
+	
+	
+
+}

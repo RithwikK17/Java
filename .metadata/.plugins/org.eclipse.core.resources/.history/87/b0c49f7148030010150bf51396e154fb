@@ -1,0 +1,19 @@
+package in.buildingblocks;
+
+class Y{
+	Y(){
+		System.out.println("zero-arg constructor");
+	}
+	
+	Y(int a){
+		this();
+		System.out.println("one-arg constructor");
+	}
+}
+
+public class Test21 {
+public static void main(String[] args) {
+	Y obj = new Y(10);
+	System.out.println(obj);
+}
+}
