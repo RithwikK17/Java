@@ -4,5 +4,5 @@
 /**
  * 
  */
-module OOP_1 {
+module Encapsulation {
 }
