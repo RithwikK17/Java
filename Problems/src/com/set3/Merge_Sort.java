@@ -1,15 +1,12 @@
 package com.set3;
 
-//Java program for Merge Sort
-import java.io.*;
-
 class Merge_Sort {
 
 	// Merges two sub-arrays of arr[].
 	// First sub-array is arr[l..m]
 	// Second sub-array is arr[m+1..r]
 	static void merge(int arr[], int l, int m, int r) {
-		// Find sizes of two sub-arrays to be mergeds
+		// Find sizes of two sub-arrays to be merged
 		int n1 = m - l + 1;
 		int n2 = r - m;
 
@@ -73,7 +70,7 @@ class Merge_Sort {
 		}
 	}
 
-	// A function to print array of size n
+	//  to print array of size n
 	static void printArray(int arr[]) {
 		int n = arr.length;
 		for (int i = 0; i < n; ++i)
@@ -81,7 +78,6 @@ class Merge_Sort {
 		System.out.println();
 	}
 
-	// Driver code
 	public static void main(String args[]) {
 		int arr[] = { 12, 11, 13, 5, 6, 7 };
 
