@@ -1,5 +1,6 @@
 package com.list;
 
+// to add a new node at the beginning of the linked list
 class Node {
 	int data;
 	Node next;

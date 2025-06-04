@@ -1,16 +1,17 @@
 package com.list;
 
-class Node {
+// to add a new node at the end of the linked list
+class newNode {
 	int data;
 	Node next;
 
-	Node(int data) {
+	newNode(int data) {
 		this.data = data;
 		this.next = null;
 	}
 }
 
-class LinkedList {
+class link {
 	Node head;
 
 	public void addAtEnd(int data) {
@@ -29,7 +30,7 @@ class LinkedList {
 		}
 	}
 
-	public void display() {
+	public void printNode() {
 		Node current = head;
 
 		while (current != null) {
@@ -39,17 +40,20 @@ class LinkedList {
 
 		System.out.println("null");
 	}
+	
 }
+
 
 public class Test5 {
 	public static void main(String[] args) {
-		LinkedList list = new LinkedList();
+		link list = new link();
 
 		list.addAtEnd(10);
 		list.addAtEnd(20);
 		list.addAtEnd(30);
+		list.addAtEnd(70);
 
 		System.out.println("Linked List after adding nodes at the end:");
-		list.display();
+		list.printNode();
 	}
 }
